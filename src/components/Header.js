@@ -34,14 +34,6 @@ function Header() {
         </div>
         </Link>
 
-        <div className="nav__item">
-        <span className="nav__itemLineOne">
-            Your
-          </span>
-          <span className="nav__itemLineTwo">
-            Shop
-          </span>
-        </div>
 
         <Link to="/checkout" style={{ textDecoration: "none" }}>
         <div className="nav__itemBasket">

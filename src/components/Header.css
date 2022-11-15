@@ -15,6 +15,10 @@
     margin: 0 25px;
 }
 
+.header__logoTitle:hover{
+    color: #ff9f00;
+}
+
 .header__logoImage {
     margin-right: 10px;
 }
@@ -76,6 +80,14 @@
     margin-right: 50px;
     margin-left: 10px;
     flex-direction: row;
+}
+
+.nav__item:hover{
+    color: #ff9f00;
+}
+
+.nav__itemBasket:hover{
+    color: #ff9f00;
 }
 
 
