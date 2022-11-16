@@ -3,7 +3,7 @@ import React from "react";
 import "./Checkout.css";
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal.js";
-import { useStateValue } from "../StateProvider";
+import { useStateValue } from "./StateProvider";
 
 function Checkout() {
     const [{basket}, dispatch] = useStateValue();
